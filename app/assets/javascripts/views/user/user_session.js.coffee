@@ -31,6 +31,7 @@ class ExampleProfile.Views.UserSession extends Backbone.View
 			success: (userSession, response) ->
 				console.log(response)
 				currentUser = new ExampleProfile.Models.User()
+				$('.alert-top').html '<div class="alert alert-info">you are signed in <a href="/sign_out" class="sign-out-session" style="float: right;">sign out</a></div>'
 			error: (xhr, userSession, response) ->
 				result = $.parseJSON(response.responseText)
 		)
