@@ -1,0 +1,23 @@
+<div class="row" style="margin-top: 10px;">
+	<div class="span6 offset3">
+		<div style="padding: 10px; background-color: #ccc; border-radius: 5px;">
+			<div style="width: 400px; background-color: #fff; padding: 20px; border-radius: 4px;">
+				<h3>login</h3>
+				
+				<div class="row" style="margin-left: 20px; border-bottom: 1px solid #ccc; padding-bottom: 25px; margin-bottom: 25px; margin-top: 20px;">
+					<a href="#" class="btn" style="width: 200px;">sign in w/ Facebook</a><br>
+				</div>
+				
+				<div class="row" style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px;">
+					<h5>or signup with your user profile:</h5>
+				</div>
+				
+				<div class="login-area"></div>
+				
+				<div style="background-color: #f1f1f1; padding: 5px 15px 5px 15px; border-radius: 4px; margin-top: 15px;">
+					<span style="color: #666; font-style: italic;">don't have an account?</span> <a href="#">sign up</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
